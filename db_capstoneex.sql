@@ -46,11 +46,11 @@ CREATE TABLE luu_anh (
 
 INSERT INTO nguoi_dung (email, mat_khau,ho_ten, tuoi, anh_dai_dien ) VALUES ('namdao@gmail.com', 'namdao','namdap',34,'aaaaaa'),('kay@gmail.com', 'kay12','kay',19,'visualcode'),('lam@gmail.com', 'lam12','lam',21,'lalaka'),('wow@gmail.com', 'wow12','wow',22,'wowowo'),('zey@gmail.com', 'zey12','zey',23,'afdiow');
 INSERT INTO hinh_anh (ten_hinh, duong_dan, mo_ta, nguoi_dung_id) 
-VALUES   ('1.jpg','https://i.pinimg.com/564x/57/23/c7/5723c7fc5aa3bc7de114793e51ebd4dc.jpg','we','1'),
-('2.jpg','https://i.pinimg.com/236x/a1/67/d1/a167d1f65d812e4dcbaa5160fb3ebfd4.jpg','ưee','2'),
-('3.jpg','https://i.pinimg.com/564x/40/26/81/402681d36ac83020159a4a00e3005dbb.jpg','ưe','3'),
-('4.jpg','https://i.pinimg.com/236x/a7/a7/d2/a7a7d2e78d9561fd6a8482431e13d8e6.jpg','ưe','4'),
-('5.jpg','https://i.pinimg.com/236x/b5/ca/3c/b5ca3c1c228bc92aec51ce6c396e5a79.jpg','ưe','5')
+VALUES   ('1.jpg','https://images.pexels.com/photos/13398438/pexels-photo-13398438.jpeg','we','1'),
+('2.jpg','https://images.pexels.com/photos/13398438/pexels-photo-13398438.jpeg','ưee','2'),
+('3.jpg','https://images.pexels.com/photos/13398438/pexels-photo-13398438.jpeg','ưe','3'),
+('4.jpg','https://images.pexels.com/photos/13398438/pexels-photo-13398438.jpeg','ưe','4'),
+('5.jpg','https://images.pexels.com/photos/13398438/pexels-photo-13398438.jpeg','ưe','5')
 ;
 INSERT INTO binh_luan (nguoi_dung_id, hinh_id, ngay_binh_luan, noi_dung) 
 VALUES ('1','5','2024-01-01','haha'),
